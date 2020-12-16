@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Time sheduler</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  <script src="form.js"></script>
+  <script src="state.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAeXniMx0Oh__HLbbM3Ayaz57HbesPJwiU",
+      authDomain: "time-scheduler-app.firebaseapp.com",
+      projectId: "time-scheduler-app",
+      storageBucket: "time-scheduler-app.appspot.com",
+      messagingSenderId: "886511823873",
+      appId: "1:886511823873:web:d6337388001c0278f4e400"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
